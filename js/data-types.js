@@ -22,7 +22,23 @@ let toStrings  = Numbers.toString()
 console.log(toStrings);
 
 //String to number
-
 let thestring = "123456"
 let toNum =  Number(thestring);
 console.log(toNum)
+
+//Template literals
+let dev = "Javascript";
+let devDetails = `Hello, ${dev} is a scripting language`;
+console.log(devDetails);
+
+//Slice Example
+let word = "Example of javascript";
+let jsworld = word.slice(11);
+console.log(jsworld);
+
+//Split example
+let makeSentence = "Let's capitalize each word's first letter."
+let wordIt = makeSentence.split(" ")
+let capitalize =  wordIt.map(w => w.charAt(0).toUpperCase()+ w.slice(1))
+let joinIt = capitalize.join(" ");
+console.log(joinIt)
