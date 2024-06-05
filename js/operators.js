@@ -14,7 +14,5 @@ console.log('before sub', --b)
 //Chaining ternary operators
 
 let score = 45;
-
 let grade = score >= 90 ? 'A' :score >= 60 ? 'B': score >= 35 ? 'C':'D';
-
 console.log(grade);
